@@ -1,0 +1,150 @@
+.navbar img {
+  height: 19%;
+  width: 23%;
+}
+
+.gradient-custom-3 {
+  /* fallback for old browsers */
+  background: #84fab0;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+}
+
+.gradient-custom-4 {
+  /* fallback for old browsers */
+  background: #84fab0;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+.h-custom {
+  height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
+
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+label {
+  color: #333;
+}
+
+.btn-send {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  width: 80%;
+  margin-left: 3px;
+}
+
+.help-block.with-errors {
+  color: #ff5050;
+  margin-top: 5px;
+
+}
+
+.card {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.52857143;
+  color: #515253;
+  background-color: #ddd;
+  margin-top: 20px;
+}
+
+.widget .panel,
+.widget.panel {
+  overflow: hidden;
+}
+
+.widget {
+  margin-bottom: 20px;
+  border: 0;
+}
+
+.bg-gray-darker {
+  background-color: #232735;
+  color: #fff !important;
+}
+
+.half-float {
+  position: relative;
+  margin-bottom: 65px;
+}
+
+.half-float .half-float-bottom,
+.half-float .half-float-top {
+  position: absolute;
+  left: 50%;
+  bottom: -60px;
+  width: 120px;
+  height: 120px;
+  margin-left: -60px;
+  z-index: 2;
+}
+
+.thumb128 {
+  width: 128px !important;
+  height: 128px !important;
+}
+
+.half-float+* {
+  margin-top: -55px;
+  padding-top: 65px;
+}
+
+.m0 {
+  margin: 0 !important;
+}
+
+.bg-gray-dark {
+  background-color: #3a3f51;
+  color: #fff !important;
+}
+
+.row-table {
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.row-table>[class*=col-] {
+  display: table-cell;
+  float: none;
+  table-layout: fixed;
+  vertical-align: middle;
+}
